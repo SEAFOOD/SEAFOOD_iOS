@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05133BEFF3D53AD98DC08D9D /* Pods_SeaFood_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EFC9A5636288040073496 /* Pods_SeaFood_iOS.framework */; };
+		923CEAC124FF5A1A00BA8D37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CEAC024FF5A1A00BA8D37 /* AppDelegate.swift */; };
+		923CEAC324FF5A1A00BA8D37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CEAC224FF5A1A00BA8D37 /* SceneDelegate.swift */; };
+		923CEAC524FF5A1A00BA8D37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CEAC424FF5A1A00BA8D37 /* ViewController.swift */; };
+		923CEAC824FF5A1A00BA8D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923CEAC624FF5A1A00BA8D37 /* Main.storyboard */; };
+		923CEACA24FF5A1C00BA8D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923CEAC924FF5A1C00BA8D37 /* Assets.xcassets */; };
+		923CEACD24FF5A1C00BA8D37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923CEACB24FF5A1C00BA8D37 /* LaunchScreen.storyboard */; };
+		923CEAD624FF5E0E00BA8D37 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923CEAD524FF5E0E00BA8D37 /* WebKit.framework */; };
+		923CEAD824FF66AD00BA8D37 /* MenuListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CEAD724FF66AD00BA8D37 /* MenuListController.swift */; };
+		923CEADA24FFB18C00BA8D37 /* myPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CEAD924FFB18C00BA8D37 /* myPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2321C3414CD2AFAADB934DE9 /* Pods-SeaFood_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaFood_iOS.release.xcconfig"; path = "Target Support Files/Pods-SeaFood_iOS/Pods-SeaFood_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		840EFC9A5636288040073496 /* Pods_SeaFood_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeaFood_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923CEABD24FF5A1A00BA8D37 /* SeaFood_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaFood_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923CEAC024FF5A1A00BA8D37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		923CEAC224FF5A1A00BA8D37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		923CEAC424FF5A1A00BA8D37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		923CEAC724FF5A1A00BA8D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		923CEAC924FF5A1C00BA8D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		923CEACC24FF5A1C00BA8D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		923CEACE24FF5A1C00BA8D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923CEAD524FF5E0E00BA8D37 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		923CEAD724FF66AD00BA8D37 /* MenuListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListController.swift; sourceTree = "<group>"; };
+		923CEAD924FFB18C00BA8D37 /* myPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageViewController.swift; sourceTree = "<group>"; };
+		9DED6A5D31115A71F11B64DA /* Pods-SeaFood_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaFood_iOS.debug.xcconfig"; path = "Target Support Files/Pods-SeaFood_iOS/Pods-SeaFood_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923CEABA24FF5A1A00BA8D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923CEAD624FF5E0E00BA8D37 /* WebKit.framework in Frameworks */,
+				05133BEFF3D53AD98DC08D9D /* Pods_SeaFood_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F0DB74FB526CE2EA0F4C24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DED6A5D31115A71F11B64DA /* Pods-SeaFood_iOS.debug.xcconfig */,
+				2321C3414CD2AFAADB934DE9 /* Pods-SeaFood_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		923CEAB424FF5A1A00BA8D37 = {
+			isa = PBXGroup;
+			children = (
+				923CEABF24FF5A1A00BA8D37 /* SeaFood_iOS */,
+				923CEABE24FF5A1A00BA8D37 /* Products */,
+				923CEAD424FF5E0E00BA8D37 /* Frameworks */,
+				46F0DB74FB526CE2EA0F4C24 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		923CEABE24FF5A1A00BA8D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923CEABD24FF5A1A00BA8D37 /* SeaFood_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923CEABF24FF5A1A00BA8D37 /* SeaFood_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				923CEAC024FF5A1A00BA8D37 /* AppDelegate.swift */,
+				923CEAC224FF5A1A00BA8D37 /* SceneDelegate.swift */,
+				923CEAC424FF5A1A00BA8D37 /* ViewController.swift */,
+				923CEAC624FF5A1A00BA8D37 /* Main.storyboard */,
+				923CEAC924FF5A1C00BA8D37 /* Assets.xcassets */,
+				923CEACB24FF5A1C00BA8D37 /* LaunchScreen.storyboard */,
+				923CEACE24FF5A1C00BA8D37 /* Info.plist */,
+				923CEAD724FF66AD00BA8D37 /* MenuListController.swift */,
+				923CEAD924FFB18C00BA8D37 /* myPageViewController.swift */,
+			);
+			path = SeaFood_iOS;
+			sourceTree = "<group>";
+		};
+		923CEAD424FF5E0E00BA8D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				923CEAD524FF5E0E00BA8D37 /* WebKit.framework */,
+				840EFC9A5636288040073496 /* Pods_SeaFood_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923CEABC24FF5A1A00BA8D37 /* SeaFood_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923CEAD124FF5A1C00BA8D37 /* Build configuration list for PBXNativeTarget "SeaFood_iOS" */;
+			buildPhases = (
+				4E7BF461C95334589E016577 /* [CP] Check Pods Manifest.lock */,
+				923CEAB924FF5A1A00BA8D37 /* Sources */,
+				923CEABA24FF5A1A00BA8D37 /* Frameworks */,
+				923CEABB24FF5A1A00BA8D37 /* Resources */,
+				D2438340095353086B475C9C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeaFood_iOS;
+			productName = SeaFood_iOS;
+			productReference = 923CEABD24FF5A1A00BA8D37 /* SeaFood_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923CEAB524FF5A1A00BA8D37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "김수완";
+				TargetAttributes = {
+					923CEABC24FF5A1A00BA8D37 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 923CEAB824FF5A1A00BA8D37 /* Build configuration list for PBXProject "SeaFood_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923CEAB424FF5A1A00BA8D37;
+			productRefGroup = 923CEABE24FF5A1A00BA8D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923CEABC24FF5A1A00BA8D37 /* SeaFood_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923CEABB24FF5A1A00BA8D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923CEACD24FF5A1C00BA8D37 /* LaunchScreen.storyboard in Resources */,
+				923CEACA24FF5A1C00BA8D37 /* Assets.xcassets in Resources */,
+				923CEAC824FF5A1A00BA8D37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E7BF461C95334589E016577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeaFood_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2438340095353086B475C9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeaFood_iOS/Pods-SeaFood_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeaFood_iOS/Pods-SeaFood_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeaFood_iOS/Pods-SeaFood_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923CEAB924FF5A1A00BA8D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923CEAD824FF66AD00BA8D37 /* MenuListController.swift in Sources */,
+				923CEADA24FFB18C00BA8D37 /* myPageViewController.swift in Sources */,
+				923CEAC524FF5A1A00BA8D37 /* ViewController.swift in Sources */,
+				923CEAC124FF5A1A00BA8D37 /* AppDelegate.swift in Sources */,
+				923CEAC324FF5A1A00BA8D37 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		923CEAC624FF5A1A00BA8D37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923CEAC724FF5A1A00BA8D37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		923CEACB24FF5A1C00BA8D37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923CEACC24FF5A1C00BA8D37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		923CEACF24FF5A1C00BA8D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		923CEAD024FF5A1C00BA8D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		923CEAD224FF5A1C00BA8D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DED6A5D31115A71F11B64DA /* Pods-SeaFood_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5QSBGBP3C;
+				INFOPLIST_FILE = SeaFood_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimxwan.SeaFood-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		923CEAD324FF5A1C00BA8D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2321C3414CD2AFAADB934DE9 /* Pods-SeaFood_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5QSBGBP3C;
+				INFOPLIST_FILE = SeaFood_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimxwan.SeaFood-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923CEAB824FF5A1A00BA8D37 /* Build configuration list for PBXProject "SeaFood_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923CEACF24FF5A1C00BA8D37 /* Debug */,
+				923CEAD024FF5A1C00BA8D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923CEAD124FF5A1C00BA8D37 /* Build configuration list for PBXNativeTarget "SeaFood_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923CEAD224FF5A1C00BA8D37 /* Debug */,
+				923CEAD324FF5A1C00BA8D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923CEAB524FF5A1A00BA8D37 /* Project object */;
+}
