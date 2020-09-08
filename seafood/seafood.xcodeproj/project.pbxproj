@@ -18,13 +18,14 @@
 		923CEB032500DDEA00BA8D37 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923CEB022500DDEA00BA8D37 /* SWRevealViewController.m */; };
 		924EC3D42503188E00209DBD /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EC3D32503188E00209DBD /* InfoViewController.swift */; };
 		924EC3D6250318A200209DBD /* ServiceCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EC3D5250318A200209DBD /* ServiceCenterViewController.swift */; };
+		924EC3D92503624500209DBD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924EC3D82503624500209DBD /* WebKit.framework */; };
 		925283E525012F3600E92715 /* SideTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925283E425012F3600E92715 /* SideTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9227CC1D25022D4D004B04D2 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		9227CC1F25022D5A004B04D2 /* MyCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartViewController.swift; sourceTree = "<group>"; };
-		923CEAE42500D9CD00BA8D37 /* seafood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seafood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923CEAE42500D9CD00BA8D37 /* SEAFOOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEAFOOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		923CEAE72500D9CD00BA8D37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		923CEAE92500D9CD00BA8D37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		923CEAEB2500D9CD00BA8D37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +38,7 @@
 		923CEB022500DDEA00BA8D37 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		924EC3D32503188E00209DBD /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		924EC3D5250318A200209DBD /* ServiceCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCenterViewController.swift; sourceTree = "<group>"; };
+		924EC3D82503624500209DBD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		925283E425012F3600E92715 /* SideTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924EC3D92503624500209DBD /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +59,14 @@
 			children = (
 				923CEAE62500D9CD00BA8D37 /* seafood */,
 				923CEAE52500D9CD00BA8D37 /* Products */,
+				924EC3D72503624500209DBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		923CEAE52500D9CD00BA8D37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				923CEAE42500D9CD00BA8D37 /* seafood.app */,
+				923CEAE42500D9CD00BA8D37 /* SEAFOOD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +133,14 @@
 			path = SWRevealViewController;
 			sourceTree = "<group>";
 		};
+		924EC3D72503624500209DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				924EC3D82503624500209DBD /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,7 +158,7 @@
 			);
 			name = seafood;
 			productName = seafood;
-			productReference = 923CEAE42500D9CD00BA8D37 /* seafood.app */;
+			productReference = 923CEAE42500D9CD00BA8D37 /* SEAFOOD.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -357,12 +369,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P5QSBGBP3C;
 				INFOPLIST_FILE = seafood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kimxwan.seafood;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimxwan.seafoodShopingMall;
+				PRODUCT_NAME = SEAFOOD;
 				SWIFT_OBJC_BRIDGING_HEADER = "seafood/Views/SWRevealViewController/seafood-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -378,12 +391,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P5QSBGBP3C;
 				INFOPLIST_FILE = seafood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kimxwan.seafood;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimxwan.seafoodShopingMall;
+				PRODUCT_NAME = SEAFOOD;
 				SWIFT_OBJC_BRIDGING_HEADER = "seafood/Views/SWRevealViewController/seafood-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

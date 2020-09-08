@@ -7,14 +7,25 @@
 //
 
 import UIKit
+import WebKit
 
-class InfoViewController: UIViewController {
+class InfoViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
 
+    @IBOutlet var InfoWV: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        loadUrl("https://www.nike.com/kr/ko_kr/")
     }
 
-
-}
+    
+    func loadUrl(_ url : String){
+        let request = URLRequest(url: URL(string: url)!)
+        
+        InfoWV.load(request)
+        
+        InfoWV.uiDelegate = self
+        InfoWV.navigationDelegate = self
+    }
+}d
